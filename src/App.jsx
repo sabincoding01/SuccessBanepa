@@ -7,7 +7,7 @@ import Services from "./pages/Services";
 import ContactUs from "./pages/ContactUs";
 import Blog from "./pages/Blogs";
 import NumberCounter from "./components/NumberCounter";
-import WhyUs from "./components/whyUs";
+import WhyUs from "./components/WhyUs";
 
 const App = () => {
   return (

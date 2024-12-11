@@ -18,7 +18,7 @@ const WhyUs = () => {
           Why Us:
         </motion.h1>
         <motion.h3
-          className="sm:text-xl pt-2 font-semibold lg:text-2xl pt-2"
+          className="sm:text-xl pt-2 font-semibold lg:text-2xl "
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
