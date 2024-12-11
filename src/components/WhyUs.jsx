@@ -6,7 +6,7 @@ import { AcademicCapIcon } from '@heroicons/react/20/solid'; // v2 path
 
 const WhyUs = () => {
   return (
-    <div className="sm:mt-4 lg:mt-6 px-4">
+    <div className="mt-10 lg:mt-6 px-4">
       {/* Header Section */}
       <div className="text-center">
         <motion.h1
