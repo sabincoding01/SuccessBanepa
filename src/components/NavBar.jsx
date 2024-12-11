@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import logo from '../images/logo.jpg'
 
 const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false); // State to toggle menu
@@ -17,17 +18,17 @@ const NavBar = () => {
   ];
 
   return (
-    <nav className="bg-gray-800 text-white">
+    <nav className="bg-gray-700 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center">
             <img
-              src="/logo.png"
-              alt="Logo"
-              className="h-8 w-8 mr-2"
+              src={logo}
+              alt="logo"
+              className="h-10 rounded w-40"
             />
-            <span className="font-bold text-xl">Consultancy</span>
+            {/* <span className="font-bold text-xl">Consultancy</span> */}
           </div>
 
           {/* Desktop Menu */}

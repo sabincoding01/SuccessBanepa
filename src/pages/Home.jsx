@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion'; // Import motion from framer-motion
-import Hero from '../images/Hero.jpeg';
+import Hero from '../images/Hero.png';
 import { FaPhoneAlt } from 'react-icons/fa'; // Import phone icon
 import { FaUserPlus } from 'react-icons/fa'; // Import register icon
 import { SlideRight } from '../utility/animation';
@@ -21,11 +21,11 @@ const Home = () => {
             <motion.h1  variants={SlideRight(0.4)}
             initial='hidden'
             animate="visible"className='text-5xl font-semibold lg:text-6xl !leading-tight'>
-              Find your perfect <span className='text-orange-500'>Destination</span>
+              Find your <br/> Best <span className='text-orange-500'>Destination</span>
             </motion.h1>
             <motion.p variants={SlideRight(0.4)}
             initial='hidden'
-            animate="visible">We help you to find your perfect and successful destination.</motion.p>
+            animate="visible">We help you to find your Best and successful destination.</motion.p>
 
             {/* button section */}
             <motion.div  variants={SlideRight(0.4)}
