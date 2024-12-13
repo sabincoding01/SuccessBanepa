@@ -8,6 +8,9 @@ import ContactUs from "./pages/ContactUs";
 import Blog from "./pages/Blogs";
 import NumberCounter from "./components/NumberCounter";
 import WhyUs from "./components/WhyUs";
+import Abroad from "./components/Abroad";
+
+
 
 const App = () => {
   return (
@@ -20,7 +23,8 @@ const App = () => {
           <Home />
           <NumberCounter/>
           <WhyUs/>
-          
+          <Services/> 
+          <Abroad/>         
           </>} /> {/* Render Home only for "/" */}
         <Route path="/about" element={<AboutUs />} /> {/* Render AboutUs for "/about" */}
         <Route path="/services" element={<Services />} />
