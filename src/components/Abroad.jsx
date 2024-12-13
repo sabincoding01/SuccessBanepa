@@ -55,6 +55,7 @@ const AbroadStudy = () => {
 
   const [expanded, setExpanded] = useState(null);
   const scrollRef = useRef(null);
+  const touchStartX = useRef(0);
 
   const scroll = (direction) => {
     const { current } = scrollRef;
@@ -69,15 +70,33 @@ const AbroadStudy = () => {
     setExpanded(expanded === index ? null : index);
   };
 
+  // Touch Handlers
+  const handleTouchStart = (e) => {
+    touchStartX.current = e.touches[0].clientX;
+  };
+
+  const handleTouchMove = (e) => {
+    const touchEndX = e.touches[0].clientX;
+    const deltaX = touchStartX.current - touchEndX;
+
+    if (deltaX > 50) {
+      scroll("right");
+      touchStartX.current = touchEndX;
+    } else if (deltaX < -50) {
+      scroll("left");
+      touchStartX.current = touchEndX;
+    }
+  };
+
   return (
     <div className="max-w-7xl mx-auto p-4">
-      <h2 className="text-center text-4xl font-bold text-blue-950 mb-6 ">Study Abroad</h2>
+      <h2 className="text-center text-4xl font-bold text-blue-950 mb-6">Study Abroad</h2>
       <p className="text-center font-semibold mb-8">Information guide for abroad study</p>
       <div className="relative">
         {/* Left Arrow */}
         <button
           onClick={() => scroll("left")}
-          className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-gradient-to-r from-blue-500 to-purple-500 text-white p-3 rounded-full shadow-lg hover:scale-110 transition-transform duration-300 z-10"
+          className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-gradient-to-r from-blue-500 to-purple-500 text-white p-3 rounded-full shadow-lg hover:scale-110 transition-transform duration-300 z-10 hidden md:block"
         >
           <FaArrowLeft size={20} />
         </button>
@@ -85,7 +104,9 @@ const AbroadStudy = () => {
         {/* Scrollable Container */}
         <div
           ref={scrollRef}
-          className="flex overflow-hidden space-x-4 px-4" // Balanced spacing on both sides
+          onTouchStart={handleTouchStart}
+          onTouchMove={handleTouchMove}
+          className="flex overflow-x-scroll space-x-4 px-4 scrollbar-hide"
         >
           {countries.map((country, index) => (
             <div
@@ -118,7 +139,7 @@ const AbroadStudy = () => {
         {/* Right Arrow */}
         <button
           onClick={() => scroll("right")}
-          className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-gradient-to-r from-purple-500 to-pink-500 text-white p-3 rounded-full shadow-lg hover:scale-110 transition-transform duration-300 z-10"
+          className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-gradient-to-r from-purple-500 to-pink-500 text-white p-3 rounded-full shadow-lg hover:scale-110 transition-transform duration-300 z-10 hidden md:block"
         >
           <FaArrowRight size={20} />
         </button>
