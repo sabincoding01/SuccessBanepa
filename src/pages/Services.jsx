@@ -23,7 +23,7 @@ const servicesData = [
 
 const Services = () => {
   return (
-    <section className="py-12 bg-white">
+    <section className="py-12 bg-white pt-8">
       <div className="text-center mb-8">
         <h2 className="text-3xl font-bold text-blue-950">OUR SERVICES</h2>
         <p className="text-black font-semibold pt-2">We Provide Quality Services to Our Students</p>

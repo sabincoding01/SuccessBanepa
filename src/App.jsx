@@ -9,6 +9,8 @@ import Blog from "./pages/Blogs";
 import NumberCounter from "./components/NumberCounter";
 import WhyUs from "./components/WhyUs";
 import Abroad from "./components/Abroad";
+import TestimonialSection from "./pages/Testimonials"
+
 
 
 
@@ -24,7 +26,8 @@ const App = () => {
           <NumberCounter/>
           <WhyUs/>
           <Services/> 
-          <Abroad/>         
+          <Abroad/>   
+          <TestimonialSection/>
           </>} /> {/* Render Home only for "/" */}
         <Route path="/about" element={<AboutUs />} /> {/* Render AboutUs for "/about" */}
         <Route path="/services" element={<Services />} />
