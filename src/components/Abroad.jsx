@@ -81,7 +81,7 @@ const AbroadStudy = () => {
         {/* Scrollable Container */}
         <div
           ref={scrollRef}
-          className="flex overflow-x-scroll no-scrollbar snap-x snap-mandatory p-0 sm:px-4 space-x-2 sm:space-x-4"
+          className="flex overflow-x-scroll no-scrollbar snap-x snap-mandatory p-0 sm:px-4 space-x-2 ml-3 sm:space-x-4"
         >
           {countries.map((country, index) => (
             <div

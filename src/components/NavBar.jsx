@@ -38,7 +38,7 @@ const NavBar = () => {
       {/* Small Bar */}
       {showSmallBar && (
         <div className="bg-blue-600 text-white text-sm py-1">
-          <marquee behavior="scroll" direction="left">
+          <marquee behavior="scroll" direction="left" className="mt-1">
             Welcome to Success BCEC Abroad Study! Banepa,Kavrepalanchwok
           </marquee>
         </div>
@@ -58,7 +58,7 @@ const NavBar = () => {
             </div>
 
             {/* Desktop Menu */}
-            <div className="hidden md:flex md:items-center md:space-x-4">
+            <div className="hidden md:flex md:items-center md:space-x-4 ">
               {menuItems.map((item) => (
                 <Link
                   key={item.id}
