@@ -5,11 +5,12 @@ import Home from "./pages/Home"; // Import page components
 import AboutUs from "./pages/About";
 import Services from "./pages/Services";
 import ContactUs from "./pages/ContactUs";
-import Blog from "./pages/Blogs";
+
 import NumberCounter from "./components/NumberCounter";
 import WhyUs from "./components/WhyUs";
 import Abroad from "./components/Abroad";
 import Footer from "./components/Footer"; // Correctly import Footer as Footer
+import Images from "./pages/Images"
 
 import TestimonialSection from "./pages/Testimonials";
 
@@ -36,7 +37,7 @@ const App = () => {
           <Route path="/about" element={<AboutUs />} /> {/* Render AboutUs for "/about" */}
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<ContactUs />} />
-          <Route path="/blog" element={<Blog />} />
+          <Route path="/images" element={<Images />} />
         </Routes>
         <Footer />
       </Router>

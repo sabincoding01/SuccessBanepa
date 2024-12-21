@@ -1,9 +1,88 @@
-import React from 'react'
+import React from "react";
 
 const About = () => {
   return (
-    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, error! Eaque reiciendis quasi, similique odio velit unde soluta enim non quas harum quae ut tenetur culpa aspernatur fugit consectetur in sapiente quis voluptatem assumenda repellendus minus! Tenetur voluptatibus, ratione corrupti repellendus animi numquam reprehenderit. Repellat quae aspernatur tenetur vero eius ad obcaecati minima quia cupiditate repellendus? Sunt doloribus incidunt culpa ab natus libero voluptatum unde architecto, inventore quos beatae eos placeat hic! Nulla delectus porro ipsam? Natus porro rem reprehenderit cupiditate eos enim mollitia vero earum vel alias modi quibusdam nesciunt accusantium recusandae odio ex ratione omnis, id itaque quia sit dignissimos magni? Nihil quasi magni provident, molestias impedit itaque vero esse exercitationem eaque consequatur, animi dicta nesciunt maxime corporis omnis deleniti ipsam labore error. Ut nostrum voluptas quidem neque accusantium omnis. Aut fugiat id assumenda saepe ratione veritatis suscipit ad corrupti iure? Sed aperiam, vero nisi quis quidem maxime sunt necessitatibus tempore incidunt ex, voluptatibus sapiente neque laborum consequuntur dicta nihil quia labore accusamus architecto reiciendis placeat! Similique, cumque in. Odit excepturi tempore quam nihil. Sed, corporis. Beatae ad repellendus sapiente voluptates voluptatum facere, natus tenetur quibusdam exercitationem est! Numquam, dolorum sed. Vitae fugit mollitia expedita repellat corporis maiores modi iusto, reiciendis quis dignissimos aut repudiandae consequatur veniam obcaecati, magnam ut enim quod quos est. Nobis tempore at repellat impedit blanditiis id fugiat, earum aspernatur, pariatur sunt quam harum suscipit praesentium! Obcaecati ullam ex perspiciatis blanditiis architecto iste quibusdam est, dolore corporis error delectus nam quaerat quis recusandae voluptates quae nihil quod. Vitae distinctio incidunt dignissimos beatae perferendis, sunt repellat laborum omnis corporis ullam ratione ad fugiat ea earum eos dolore a blanditiis voluptate esse quo. Rem, placeat repellendus neque quo pariatur dignissimos commodi eveniet! Odit suscipit ullam repudiandae id voluptates? Quo minima consequuntur eveniet natus aut omnis sint iusto asperiores autem cum dolores illum earum porro corrupti a minus ullam reiciendis culpa, totam perspiciatis suscipit ad? Iure aliquid ut labore corrupti quis, aut unde aperiam maxime ea eos, ducimus natus, odio a fuga optio quas. Illo, reiciendis ipsum, excepturi accusamus quia aperiam amet repudiandae illum nulla voluptate voluptatem quas nobis asperiores nesciunt autem nihil, aliquam eum incidunt repellendus. Eligendi beatae aliquid ad aut laboriosam officiis molestiae saepe voluptatum ipsum quis et tempore mollitia voluptas voluptates perferendis quos, hic repellat laudantium nam sint explicabo sed? Rerum minus accusantium aperiam recusandae quas eos doloremque illo ullam ducimus nulla. Recusandae veritatis veniam, tempore explicabo placeat repudiandae voluptatibus impedit consectetur at, voluptates asperiores nostrum. Ex odio voluptates animi magnam ut dolorem mollitia, id impedit nesciunt aspernatur sapiente ratione nulla reprehenderit consectetur illum expedita praesentium unde sint. Dignissimos aliquam laudantium iusto dolores inventore adipisci nostrum eveniet aperiam laborum corrupti modi rerum, voluptatibus vitae temporibus tenetur. Ullam assumenda placeat perspiciatis, nulla cupiditate autem. Sed optio voluptates, libero veniam ab culpa iste vero sint quod tempora aliquam blanditiis, eaque rem assumenda obcaecati nam. Velit rerum praesentium delectus minima? Exercitationem iusto architecto libero, molestiae eius magnam sunt saepe consequatur distinctio neque praesentium fugit quod eum incidunt veniam. Distinctio, esse explicabo voluptate commodi dolore debitis voluptas pariatur obcaecati tempora incidunt, consectetur, enim ducimus deleniti. Dicta omnis, quidem ipsum tenetur culpa dolor, ex officiis delectus expedita ut reprehenderit deserunt et praesentium vero voluptatem. Temporibus necessitatibus, dolores ab, dolore atque dicta autem in omnis animi earum, nobis nisi aspernatur laboriosam. Autem unde consectetur, similique corporis commodi iste qui iure perspiciatis id libero voluptatem in dicta sequi dolorum cupiditate, accusantium, accusamus harum quibusdam. Quia id nulla, alias ad ratione consectetur quos dicta repellendus doloribus quis quam ipsum, unde consequatur et nemo nam corrupti! Quod quasi tempore nihil molestiae non temporibus ut nesciunt eveniet adipisci, vero nam quas quo perferendis exercitationem itaque qui commodi voluptates pariatur iste tenetur sint. Non vel assumenda excepturi. At, amet? Fugit dolorem beatae magni dolor possimus velit! Rerum est perspiciatis dicta quisquam, laudantium nesciunt. Est rem, unde fugit rerum iure temporibus consequatur fugiat deserunt ullam explicabo porro sed neque numquam ipsam non, aliquam error reiciendis mollitia magnam ea labore nisi molestiae itaque doloremque? Molestias quae, in quod repellendus odit, laudantium vero architecto omnis ipsam quas dolores similique! Iste labore perspiciatis eos repellat, temporibus voluptatibus et explicabo asperiores, reprehenderit, provident numquam voluptate ipsum pariatur amet? Nostrum at explicabo officiis. Recusandae autem quis alias hic numquam corrupti amet perferendis consectetur, maxime modi est illo beatae asperiores inventore eaque ab ipsam nihil obcaecati, repellat possimus culpa accusamus. Facilis quam dolorum consequuntur officiis reprehenderit, distinctio accusantium suscipit laborum, culpa quaerat cumque? Iure, pariatur atque excepturi veritatis ducimus aliquid delectus error quidem nam a voluptas repellat quasi hic labore quaerat sunt minima eligendi repellendus velit ipsam quibusdam impedit ipsa. Facere eveniet porro nisi ab nesciunt harum atque. Rerum minus debitis laborum voluptas expedita modi ipsum odio excepturi quasi praesentium dolore totam quibusdam quaerat, distinctio id tenetur veritatis nemo? Magnam eos, ut, illum doloremque itaque neque quam tempore architecto, quae modi obcaecati illo voluptas! Quasi, rem ullam quaerat odit voluptatibus vel debitis, esse adipisci quae non sunt tempora, maiores sequi! Corrupti, reiciendis nemo delectus doloremque, suscipit quam fugit dicta, quae sequi porro nobis facilis nulla deserunt rerum quis dolorum labore nisi totam reprehenderit maxime mollitia earum dolorem! Doloremque porro nisi eaque veritatis, aperiam est asperiores delectus quidem illum mollitia ad fugit eveniet vitae reprehenderit, reiciendis fuga molestias repudiandae eligendi adipisci deleniti ducimus perspiciatis ipsum. Tempora neque nihil ullam nesciunt! Reiciendis laudantium nihil dolor quo quam earum eos at nostrum fuga laborum ad veritatis obcaecati nam, hic error vero cupiditate distinctio culpa quisquam esse. Recusandae modi dolorum vero reiciendis quis voluptates maxime fuga consectetur. Facere, tenetur necessitatibus dolor cumque dolorem ex blanditiis magni quia maxime enim iure minus hic excepturi saepe consequatur commodi possimus fugit rem fuga! Quae cum officiis, dolores sunt officia error illo vitae ducimus reiciendis voluptatibus eligendi eos possimus dicta consequuntur, iure aut corrupti impedit, enim unde amet voluptatem tempora repudiandae in! Dolorem suscipit optio inventore quia ea facilis iure, a, ex ad atque illo eveniet sint alias quidem impedit! Quo tempora quibusdam officiis optio perferendis cum ratione maxime sunt.</div>
-  )
-}
+    <div className="bg-gray-50 py-10">
+      <div className="max-w-6xl mx-auto px-4">
+        {/* CEO Section */}
+        <div className="flex flex-col md:flex-row items-center gap-8">
+          <img
+            src="https://via.placeholder.com/200"
+            alt="CEO of Success BCEC Abroad Study"
+            className="w-48 h-48 rounded-full object-cover shadow-lg"
+          />
+          <div>
+            <h1 className="text-3xl font-bold text-gray-800">
+              Success BCEC Abroad Study
+            </h1>
+            <p className="text-gray-600 mt-2">
+              "We strive to make your dreams of studying abroad a reality!"
+            </p>
+          </div>
+        </div>
 
-export default About
+        {/* Office Description */}
+        <div className="mt-12 space-y-6">
+          <h2 className="text-2xl font-semibold text-gray-800">About Us</h2>
+          <p className="text-gray-600 leading-relaxed">
+          Success BCEC Abroad Study, founded in 2018 in Banepa, with its head office located in Baghbazar, Kathmandu, has emerged as a leading name in the field of abroad studies. The institution is committed to providing comprehensive guidance to students aspiring to study overseas, ensuring that each one receives personalized attention and support throughout the process.
+
+From application to visa approval, Success BCEC Abroad Study has built a reputation for its expertise in navigating the complex procedures involved in studying abroad. With a remarkably high visa success rate, the institution has helped numerous students achieve their academic dreams in countries like the USA, UK, Australia, Canada, and more. Their team of dedicated professionals offers career counseling, university selection, application processing, and visa guidance, making the entire journey smooth and hassle-free for students.
+
+The positive feedback from students is a testament to the institution's commitment to excellence. Success BCEC Abroad Study has earned the trust and loyalty of its clients through its transparent practices, reliable services, and consistent results. Today, it is recognized as a go-to agency for students who wish to pursue higher education abroad, cementing its place as a trusted name in the industry.
+          </p>
+          <h2 className="text-2xl font-semibold text-gray-800 mt-8">
+            Countries We Serve
+          </h2>
+          <div className="mt-4 space-y-4">
+            <div>
+              <h3 className="text-xl font-semibold text-gray-700">Japan</h3>
+              <p className="text-gray-600">
+                We guide students in pursuing higher education in Japan,
+                focusing on language schools and top universities.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold text-gray-700">USA</h3>
+              <p className="text-gray-600">
+                The USA offers world-class universities, and we help students
+                with applications, scholarships, and visa processing.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold text-gray-700">Australia</h3>
+              <p className="text-gray-600">
+                Explore your academic potential in Australia with our expert
+                guidance for top institutions and smooth visa processing.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold text-gray-700">Canada</h3>
+              <p className="text-gray-600">
+                Canada is known for its quality education and safe environment.
+                We assist students in securing admissions and student visas.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold text-gray-700">UK</h3>
+              <p className="text-gray-600">
+                The UK offers prestigious universities with diverse programs. We ensure a smooth application process for aspiring students.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold text-gray-700">
+                South Korea
+              </h3>
+              <p className="text-gray-600">
+                Study in South Korea and experience its cutting-edge education
+                system and vibrant culture with our expert support.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default About;
