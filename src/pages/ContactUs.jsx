@@ -40,11 +40,10 @@ const ContactUs = () => {
 
         {/* Google Map */}
         <div>
-          <LoadScript googleMapsApiKey="">
-            <GoogleMap mapContainerStyle={mapStyles} zoom={15} center={center}>
-              <Marker position={center} />
-            </GoogleMap>
-          </LoadScript>
+        <video controls className="video" style={{ width: "100%", height: "auto" }}>
+        <source src="/path-to-your-video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
         </div>
       </div>
     </div>
